@@ -8,7 +8,7 @@ $ pip install pushould-python
 
 ## Usage
 
-#### [Official Documentation](https://yhosino11.github.io)
+#### [Official Documentation](https://yhoshino11.github.io)
 
 ## License
 
