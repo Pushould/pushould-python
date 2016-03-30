@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='pushould-python',
-      version='0.0.2',
+      version='0.0.3',
       description='RealTime without pain.',
       url='https://pushould.com',
       author='Yu Hoshino',

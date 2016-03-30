@@ -1,5 +1,8 @@
 import json
 import requests
+from requests.packages.urllib3.exceptions import InsecureRequestWarning
+
+requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 
 class Pushould(object):
@@ -20,7 +23,7 @@ class Pushould(object):
 
     @classmethod
     def version(cls):
-        return '0.0.2'
+        return '0.0.3'
 
     def trigger(self, room='', event='', data={}):
         if room == '':
