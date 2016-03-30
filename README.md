@@ -1,4 +1,4 @@
-# [Pushould](https://yhoshino11.github.io) for python
+# [Pushould](https://pushould.com) for python
 
 ## Installation
 
@@ -8,7 +8,7 @@ $ pip install pushould-python
 
 ## Usage
 
-#### [Official Documentation](https://yhoshino11.github.io)
+#### [Official Documentation](https://pushould.com)
 
 ## License
 
