@@ -18,6 +18,10 @@ class Pushould(object):
         self.email = email
         self.password = password
 
+    @classmethod
+    def version(cls):
+        return '0.0.2'
+
     def trigger(self, room='', event='', data={}):
         if room == '':
             raise ValueError('room is required')
@@ -30,4 +34,4 @@ class Pushould(object):
                 'custom': data}
         payload = {'account': json.dumps(account_info),
                    'data': json.dumps(data)}
-        requests.get(self.url, params=payload, headers=self.headers)
+        return requests.get(self.url, verify=False, params=payload, headers=self.headers)
